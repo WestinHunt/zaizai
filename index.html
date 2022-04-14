@@ -13,40 +13,17 @@
 <div id="wrapper">
 	<!-- Header -->
 		<header id="header">
-		
 			<div class="logo">
 			<!-- <span class="icon fa-gem"></span> -->
 			<img class="logo" src="images/logo/logo.jpg" alt="">
 			</div>
-			<font color="#030303">
-				<style>
-			#nr{
-				font-size:20px;
-				margin: 0;
-				background: -webkit-linear-gradient(left,
-					#ffffff,
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				background-size: 200% 100%;
-				animation: masked-animation 2s infinite linear;
-			}
-			@keyframes masked-animation {
-				0% {
-					background-position: 0 0;
-				}
-				100% {
-					background-position: -100%, 0;
-				}
-			}
-		</style>
-		<div style="background-color:#333;border-radius: 25px;padding:5px;margin-top: 10px;margin-bottom:0px;">
-			<marquee>
-				<b id="nr">21398614917490170 </b>
-			</marquee>
-		</div>
-		<!--顶部导航-->
-		
-			</font>
+			<div class="content">
+				<div class="inner">
+					<h1>欢迎来到Jimin的博客</h1>
+					<p>正在更新中<br/>
+					<!-- for free under the <a href="#">Creative Commons</a> license.</p> -->
+				</div>
+			</div>
 			<nav>
 				<ul>
 					<li><a href="#work">介绍</a></li>
@@ -59,54 +36,38 @@
 		<div id="main">
 			<!-- Work -->
 				<article id="work">
-					<h2 class="major">生日快乐</h2>
-					<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-					<h2>华为网络设备常用命令与基础管理</h1>
-					<h3>1.路由器基本配置介绍</h3>
-					<h3>1) 路由器的四种视图：</h3>
-					<p>	（1）用户视图：用于查看路由器的基本配置信息或者远程连接其他主机，在这种模式下不能改变路由器的配置。打开路由器默认为用户模式，如下：<br />
+					<font color="#030303">
+						<style>
+					#nr{
+						font-size:20px;
+						margin: 0;
+						background: -webkit-linear-gradient(left,
+							#ffffff,
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
+						background-size: 200% 100%;
+						animation: masked-animation 2s infinite linear;
+					}
+					@keyframes masked-animation {
+						0% {
+							background-position: 0 0;
+						}
+						100% {
+							background-position: -100%, 0;
+						}
+					}
+				</style>
+				<div style="background-color:#333;border-radius: 25px;padding:5px;margin-top: 10px;margin-bottom:0px;">
+					<marquee>
+						<b id="nr">21398614917490170 </b>
+					</marquee>
+				</div>
+				<!--顶部导航-->
+				
+					</font>
 						<span class="image main"><img src="images/work/work1.png" alt=""></span>
-					</p>
-					<p>
-						（2）系统视图：可以对路由器进行基本配置，前提是进入到全局模式或其他特殊的配置模式。用户模式下输入:system-view(或缩写sys)<br />
-						<span class="image main"><img src="images/work/work2.png" alt=""></span>
-					</p>
-					<p>（3）端口视图：允许用户真正修改路由器的配置。其他特殊的配置模式都是全局模式的一个子集。在用户模式下进行配置操作，如进入某个端口：interface Ethernet0/0/0(缩写 int eth0/0/0) <br />
 						<span class="image main"><img src="images/work/work3.png" alt=""></span>
-					</p>
-					<p>（4）路由协议视图：配置路由协议的参数，在系统视图下输入：isis/ospf/ripbr <br />
-						<span class="image main"><img src="images/work/work4.png" alt=""></span>
-					</p>
-					<h3>2）路由器的配置命令</h3>
-					<p>（1）更改路由器名称：sysname Router1(新名称) <br />
-						<span class="image main"><img src="images/work/work5.png" alt=""></span>
-						<br />
-						（2）显示当前配置：display current<br />
-
-						（3）显示当前接口信息：display interface<br />
-
-						（4）显示路由表信息：display ip routing-table<br />
-
-						（5）退出当前模式：quit<br />
-
-						（6）激活端口：undo shutdown<br />
-
-						（7）关闭端口：shutdown<br />
-
-						（8）保存当前配置：save test.cfg(用户模式下 ) //保存配置文件名为test.cfg<br />
-
-						（9）为端口配置IP地址：ip address 192.168.1.1  255.255.255.0//地址 子网掩码<br />
-
-						（10）还原配置：startup saved-configuration test.cfg //下次启动时自动恢复配置test.cfg<br />
-
-						（11）配置静态路由：ip route-static  192.168.1.0 255.255.255.0 192.168.1.254<br />
-
-						//目标网段 子网掩码 下一跳<br />
-
-						（12）撤回/删除一条命令：undo 需撤回的命令<br />
-
-						（13）退回用户界面：return
-					</p>
+						<span class="image main"><img src="images/work/work2.png" alt=""></span>
 				</article>
 			<!-- Elements -->
 				<article id="elements">
